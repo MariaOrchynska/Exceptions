@@ -14,7 +14,7 @@ public class Pizza {
             try {
                  throw new CookIsBusyException(numOfPizza);
             }  catch (CookIsBusyException e) {
-                System.out.println("The cook is busy :((( Yoy have ordered too many pizzas");
+                System.out.println("The cook  is busy :((( Yoy have ordered too many pizzas");
             }
         }
     }
